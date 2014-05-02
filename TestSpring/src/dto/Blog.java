@@ -12,6 +12,7 @@ public class Blog {
 	private String userID;
 	private String title;
 
+
 	public void setAKey(int aKey) {
 		this.aKey=aKey;
 		
@@ -50,6 +51,10 @@ public class Blog {
 
 	public String getTitle() {
 		return title;
+	}
+
+	public String getStringThing() {
+		return thingString;
 	}
 
 	

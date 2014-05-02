@@ -2,6 +2,7 @@ package test;
 
 import static org.junit.Assert.*;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import org.junit.Test;
@@ -12,10 +13,14 @@ public class testBlog {
 
 	@Test
 	public void test() {
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("M/dd/yyyy");
+		String date = sdf.format(new Date()); 
+		System.out.println(date);
 
 		int aKey=01;
 		String thingString="words";
-		Date insertDate=new Date("2013/06/01");
+		Date insertDate=new Date(date);
 		String userID="";
 		String title="";
 
@@ -27,11 +32,16 @@ public class testBlog {
 		blog.setInsterDate(insertDate);
 		
 		int returnedAKey=blog.getAKey();
-		Date returnedInsertDate=blog.getInsertDate();
+		System.out.println((sdf.format(blog.getInsertDate()).toString()));
+		String returnedInsertDate=((sdf.format(blog.getInsertDate()).toString()));
+		String returnedStringThing=blog.getStringThing();
 		String returnedUserID=blog.getUserID();
 		String returnedTitle=blog.getTitle();
 		
-		fail("Not yet implemented");
+		String[] expected={Integer.toString(aKey),thingString,userID,title,date.toString()};
+		String[] gotBack={Integer.toBinaryString(returnedAKey),returnedStringThing,returnedUserID,returnedTitle,returnedInsertDate};
+		assertArrayEquals(expected,gotBack);
+		
 	}
 
 }
