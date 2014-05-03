@@ -52,6 +52,10 @@ public class Blog {
 		return title;
 	}
 
+	public String getThingString() {
+		return thingString;
+	}
+
 	
 
 }
