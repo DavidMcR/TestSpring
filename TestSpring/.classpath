@@ -14,5 +14,30 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/hibernate-commons-annotations-4.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/hibernate-core-4.1.9.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/hibernate-entitymanager-4.1.9.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/javassist-3.12.1.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/javassist-3.17.1-GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/mysql-connector-java-5.0.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/spring-aop-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/spring-asm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/spring-beans-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/spring-context-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/spring-context-support-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/spring-core-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/spring-expression-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/spring-web-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/git/TestSpring/TestSpring/WebContent/lib/spring-webmvc-3.0.5.RELEASE.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
