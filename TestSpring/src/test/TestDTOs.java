@@ -140,7 +140,7 @@ public class TestDTOs {
 	@Test
 	public void testBlogList(){
 		BlogList bList = new BlogList();
-		DTOcreator dtoc = new DTOcreator();
+		TestMethods dtoc = new TestMethods();
 		Blog blog = dtoc.createBlog();
 		
 		List<Blog> listBlog = new ArrayList<Blog>();
@@ -154,7 +154,7 @@ public class TestDTOs {
 	@Test
 	public void testItemList(){
 		ItemList iList = new ItemList();
-		DTOcreator dtoc = new DTOcreator();
+		TestMethods dtoc = new TestMethods();
 		Item item = dtoc.createItem();
 		
 		List<Item> listitem = new ArrayList<Item>();
@@ -168,7 +168,7 @@ public class TestDTOs {
 	@Test
 	public void testUserList(){
 		UserList uList = new UserList();
-		DTOcreator dtoc = new DTOcreator();
+		TestMethods dtoc = new TestMethods();
 		User user = dtoc.createUser();
 		
 		List<User> listUser = new ArrayList<User>();
