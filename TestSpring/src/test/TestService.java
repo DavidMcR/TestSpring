@@ -22,10 +22,11 @@ public class TestService {
 		user = dtoc.createUser();
 		
 		UserDAO udao = new UserDAO();
-		System.out.println("the ulist ");
-		udao.addNewUser(user);
 		
+		udao.addNewUser(user);
+		System.out.println("hello ");
 		uList = (UserList) tMeth.getUserList();
+		System.out.println("hello 2");
 		System.out.println("the ulist "+uList.toString());
 		fail("Not yet implemented");
 	}

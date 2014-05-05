@@ -1,10 +1,11 @@
 package dto;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Entity (name="USER_DETAILS")
 public class User {
-	
+	@Id
 	private int aKey;
 	private String userID;
 	private String password;
