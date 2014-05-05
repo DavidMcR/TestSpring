@@ -1,5 +1,8 @@
 package dto;
 
+import javax.persistence.Entity;
+
+@Entity (name="USER_DETAILS")
 public class User {
 	
 	private int aKey;
